@@ -156,7 +156,7 @@ namespace Graph {
 
 
 		g->SmoothingMode = Drawing2D::SmoothingMode::AntiAlias; // режим сглаживания для отрисовки
-		g->Clear(Color::Navy);									// очистка поверхности и заполнение цветом (тёмно-синий)
+		g->Clear(Color::Black);									// очистка поверхности и заполнение цветом (тёмно-синий)
 
 
 		const float pointSize = 5;					 // диаметр точек на плоскости
